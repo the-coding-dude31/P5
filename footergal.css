@@ -59,6 +59,8 @@
   }
   .footer .footerimg {
     right: 5rem;
+    width: 40px;
+    height: 40px;
   }
 
   .footer .footerimg:hover {
