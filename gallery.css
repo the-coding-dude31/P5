@@ -1,0 +1,327 @@
+.gallery-batik {
+  width: 100%;
+  height: auto;
+  background-color: #f5e6c5;
+  padding: 15px;
+  padding-bottom: 25px;
+  color: #000;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .title-gallery {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 4px 4px 4px #5a3e36;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 800;
+  color: #4e342e;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah1 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah2 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah3 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah4 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah5 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah6 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah7 {
+  width: 250px;
+  height: 340px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.gallery-batik .daerah1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah2 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah3 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah4 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah5 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah6 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah7 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  border: none;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.gallery-batik .daerah1:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah2:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah3:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah4:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah5:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah6:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah7:hover img {
+  transform: scale(1.15);
+}
+
+.gallery-batik .daerah1 .descdaerah1 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah2 .descdaerah2 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah3 .descdaerah3 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah4 .descdaerah4 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah5 .descdaerah5 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah6 .descdaerah6 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.gallery-batik .daerah7 .descdaerah7 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 85%;
+  font-family: "Playfair Display";
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 678px) {
+  .flex1 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .flex2 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1rem;
+  }
+}

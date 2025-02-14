@@ -1,0 +1,108 @@
+/* Content Page */
+
+.content {
+  width: 100%;
+  height: 53rem;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Sejarah */
+
+.content .sejarah {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.title-sejarah {
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Playfair Display";
+  color: #e3b778;
+  line-height: 4rem;
+  text-shadow: 4px 4px 4px #5a3e36;
+  margin-top: 15px;
+}
+
+.content .sejarah .descsejarah {
+  width: 50rem;
+  text-align: justify;
+  color: #f5e1a4;
+}
+
+.content .sejarah .descsejarah .source {
+  color: #fff;
+  font-size: 0.6rem;
+  margin: 0 2rem 2rem 4rem;
+  letter-spacing: normal;
+}
+
+.content .sejarah .descsejarah p {
+  max-width: 70%;
+  margin: 0 2rem 2rem 4rem;
+  letter-spacing: 0.06rem;
+}
+
+.content .sejarah .imgsejarah {
+  margin-top: 0rem;
+}
+
+.content .sejarah .imgsejarah img {
+  width: 550px;
+  height: 340px;
+  margin-right: 9rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px #010000;
+}
+
+.content .sejarah .imgsejarah figcaption {
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 678px) {
+  .content {
+    margin-top: 2.4rem;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content .sejarah {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content .sejarah .descsejarah {
+    width: auto;
+    text-align: justify;
+    flex-direction: column;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+
+  .content .sejarah .imgsejarah {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content .sejarah .imgsejarah img {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 500px;
+    height: 300px;
+  }
+
+  .content .sejarah .descsejarah p {
+    max-width: 100%;
+    margin-left: 2.5rem;
+    letter-spacing: normal;
+  }
+}

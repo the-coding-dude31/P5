@@ -1,0 +1,431 @@
+body {
+  background-color: #d2b48c;
+  font-family: "Roboto Condensed";
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  background-color: #7b1e1e;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header nav .logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 2px solid #fff;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1rem;
+  margin-right: 10px;
+  font-family: "Playfair Display";
+  transition: all 300ms ease-in-out;
+}
+
+header nav a:hover {
+  color: #e1ad01;
+}
+
+.back-nav {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #e1ad01;
+  color: #000;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 300ms ease-in-out;
+}
+
+.back-nav:hover {
+  color: #e1ad01;
+  background-color: #000;
+  transform: scale(1.2, 1.2);
+}
+
+@media screen and (max-width: 678px) {
+  .back-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .back-nav:hover {
+    transform: scale(1);
+    color: #000;
+    background-color: #e1ad01;
+  }
+  header nav a:hover {
+    color: #fff;
+  }
+}
+
+/* flex layout */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.gallery .flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery .flex .image {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image1 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image2 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image3 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image4 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image5 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image6 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image7 {
+  width: 290px;
+  height: 210px;
+  padding: 30px;
+  background-color: #fff4d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.gallery .flex .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translate3d(0, 0, 50px);
+  pointer-events: none;
+}
+
+.gallery .flex .image::after {
+  content: "Batik Cendrawasih";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image1::after {
+  content: "Batik Suku Asmat";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image1:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image2::after {
+  content: "Batik Sentani";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image2:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image3::after {
+  content: "Batik Tifai Honai";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image3:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image4::after {
+  content: "Batik Suku Kamoro";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image4:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image5::after {
+  content: "Batik Prada";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image5:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image6::after {
+  content: "Batik Sawat Pengantin";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image6:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.gallery .flex .image7::after {
+  content: "Batik Ciwaringin Bangau";
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  transform: translate3d(0, 0, 50px);
+  transform: translateY(-30px);
+  transition: all 400ms ease-in-out;
+  font-family: "Caveat";
+  font-size: 1.1rem;
+}
+
+.gallery .flex .image7:hover::after {
+  transform: translateY(0);
+  transform: translate3d(0, 0, 50px);
+}
+
+.source,
+.source2 {
+  font-size: 0.7rem;
+}
