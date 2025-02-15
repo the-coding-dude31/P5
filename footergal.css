@@ -53,6 +53,9 @@
 }
 
 @media screen and (max-width: 678px) {
+  .footer {
+    height: 115px;
+  }
   .footer .descfooter {
     font-size: 0.6rem;
     text-align: right;
@@ -69,7 +72,7 @@
 
   .navbar.footer {
     bottom: 1em;
-    max-width: 60%;
+    max-width: 70%;
   }
 
   .navbar.footer p {

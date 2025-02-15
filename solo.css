@@ -709,3 +709,25 @@ header nav a:hover {
 .source2 {
   font-size: 0.7rem;
 }
+
+/* mobile view */
+
+@media screen and (max-width: 678px) {
+  .gallery .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery .flex .mobile::after {
+    transform: translate3d(0, 0, 0);
+    transform: translateY(0);
+    bottom: 5px;
+  }
+  .gallery .flex .mobile:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .gallery .flex .mobile img {
+    transform: translate3d(0, 0, 0);
+  }
+}
