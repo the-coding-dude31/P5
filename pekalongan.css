@@ -460,11 +460,6 @@ header nav a:hover {
   font-size: 0.7rem;
 }
 
-.source,
-.source2 {
-  color: #fff;
-}
-
 /* mobile view */
 
 @media screen and (max-width: 678px) {
